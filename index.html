@@ -43,6 +43,7 @@
         a {
             color: #333;
             text-decoration: none;
+            word-break: break-word;
         }
 
         a:hover {
@@ -50,11 +51,17 @@
         }
 
         header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
             padding: 20px;
             background-color: #333;
             color: #fff;
-            text-align: center;
             border-radius: 5px;
+        }
+
+        .nav-title {
+            font-size: 24px;
         }
 
         section {
@@ -122,7 +129,7 @@
 </head>
 <body>
     <header>
-        <h1>Suad Huseynli</h1>
+        <span class="nav-title">Suad Huseynli</span>
     </header>
 
     <section>
