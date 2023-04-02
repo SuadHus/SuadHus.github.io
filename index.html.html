@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suad Huseynli's Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        header {
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        section {
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+        }
+
+        .contact-item::before {
+            content: "";
+            display: inline-block;
+            height: 20px;
+            width: 20px;
+            margin-right: 10px;
+        }
+
+        .phone::before {
+            content: "📞";
+        }
+
+        .email::before {
+            content: "✉️";
+        }
+
+        .linkedin::before {
+            content: "🔗";
+        }
+
+        .address::before {
+            content: "📍";
+        }
+
+        .list-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .list-content {
+            margin-left: 20px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .contact-info {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Suad Huseynli</h1>
+    </header>
+
+    <section>
+        <h2>Contact Information</h2>
+        <ul class="contact-info">
+            <li class="contact-item phone">Phone number: 0732678464</li>
+            <li class="contact-item email">Email: <a href="mailto:suadreal@gmail.com">suadreal@gmail.com</a></li>
+            <li class="contact-item linkedin">LinkedIn: <a href="https://www.linkedin.com/in/suad-huseynli-b6629a227/">https://www.linkedin.com/in/suad-huseynli-b6629a227/</a></li>
+            <li class="contact-item address">Address: Docentvägen 28, Luleå</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Summary</h2>
+        <p>Highly motivated computer science student with experience in film production, customer service, and software development. Proficient in React, Node.js, and Google Cloud services. Strong problem-solving and teamwork skills developed in a fast-paced kitchen environment. Fluent in Swedish, English, Azerbaijani, Russian, and Turkish.</p>
+    </section>
+
+    <section>
+        <h2>Work Experience</h2>
+        <ul>
+            <li>
+                <span class="list-title">Filmpool Nord, Film Production Assistant (2017)</span>
+                <ul class="list-content">
+                    <li>Assisted in the production of a short film and provided editing support.</li>
+                </ul>
+            </li>
+            <li>
+                <span class="list-title">Max, Cashier and Kitchen Assistant (2019-2021)</span>
+                <ul class="list-content">
+                    <li>Worked in a fast-paced kitchen environment, responsible for pay desk, cleaning, providing customer service, and every other thing you can think of in a restaurant.</li>
+                    <li>Developed strong problem-solving and teamwork skills.</li>
+                </ul>
+            </li>
+            <li>
+                <span class="list-title">Luleå University of Technology, Lab Assistant (2022)</span>
+                <ul class="list-content">
+                    <li>Assisted students in correcting Java code.</li>
+                </ul>
+            </li>
+            <li>
+                <span class="list-title">EIOP, Front-end and Back-end Developer (Since 2022)</span>
+                <ul class="list-content">
+                    <li>Worked on website development using React and Node.js, as well as Google Cloud services and ElasticSearch.</li>
+                    <li>Visit <a href="https://www.eiop.se">eiop.se</a> for more information.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <span class="list-title">Luleå University of Technology, Computer Science (2020-2025)</span>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>
+                <span class="list-title">Programming:</span>
+                <span class="list-content">Scrum, Javascript, Java, C/C++, C#, Python, Docker, Kubernetes, SQL, Elasticsearch, Google Cloud, Git, ReactJs, Nodejs, Express, Game development, Unity</span>
+            </li>
+            <li>
+                <span class="list-title">Languages:</span>
+                <span class="list-content">Swedish, English, Azerbaijani, Russian, Turkish</span>
+            </li>
+            <li>
+                <span class="list-title">Strong problem-solving and teamwork skills</span>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Interests</h2>
+        <ul>
+            <li>Powerlifting</li>
+            <li>Playing guitar</li>
+            <li>Reading books</li>
+        </ul>
+    </section>
+</body>
+</html>
+
+
